@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Homework 7-8</title>
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+	<script defer type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div class="wrapper">
+		<ul class="menu">
+			<li><a href="#tab1" class="active">BMW M-BIKE</a></li>
+			<li><a href="#tab2">Audi Wörthersee</a></li>
+			<li><a href="#tab3">Aston Martin One-77</a></li>
+		</ul>	
+		<div class="tab" id="tab1">
+			<img src="img/bike1.jpg">
+			<p>Рама модели BMW M Bike создана из карбона, оснащается гидравлическими тормозами и специальной масляно-воздушной передней вилкой-амортизатором. В отличие от подавляющего большинства ныне существующих моделей, на которых можно участвовать в различных велосоревнованиях, BMW M Bike являет собой отменный велосипед для езды по пересечённой местности для любителей продукции от компании BMW, готовых потратить на это удовольствие существенные деньги.</p>
+		</div>
+		<div class="tab" id="tab2">
+			<img src="img/bike2.jpg">
+			<p>Владелец Audi Wörthersee может сам выбирать, как осуществлять движение – с помощью электрического двигателя или обычным кручением педалей. С помощью сенсорного экрана или подключаемого смартфона велосипедист может выбрать один из 5 режимов езды. Режим «Pure» предполагает передачу колёсам механического импульса через педали, а при выборе способа «Pedelec» вступает в действие электрический мотор, как вспомогательная сила, облегчая нагрузку на ноги ездока, — в этом режиме можно при впечатляющей максимальной скорости 80 км/ч проехать расстояние от 50 до 70 км без подзарядки.</p>		
+		</div>
+		<div class="tab" id="tab3">
+			<img src="img/bike3.jpg">
+			<p>Велосипед разработан на основе технологий bf1systems, которые применяются в конструкции болидов Формулы-1, только ручная сборка, только самые дорогие материалы, только самые новые и сложные технологии.Электронная система использует ряд сенсоров, включая GPS, датчики скорости и положения кривошипа. Компьютер вычисляет более чем 100 специфических параметров и выводит их на мультитач-дисплей. Например, развиваемый крутящий момент и силу ног, причем отдельно для правой и левой, максимальную мгновенную мощность, объем избыточных усилий, ускорение, высоту, точное местоположение, биометрические данные, ЭКГ, частоту дыхания, температуру тела и т.д.</p>
+		</div>	
+	</div>
+	<aside>
+		<div class="aside_container">
+			<div class="aside_box">
+				<label for="firstname">Firstname</label>
+				<input id="firstname" class="tooltip" name="firstname">
+				<span>Please provide your firstname.</span>
+			</div>
+			<div class="aside_box">
+				<label for="lastname">Lastname</label>
+				<input id="lastname" class="tooltip" name="lastname">
+				<span>Please provide also your lastname.</span>
+			</div>
+			<div class="aside_box">
+				<label for="address">Address</label>
+				<input id="address" class="tooltip" name="address">
+				<span>Your home or work address.</span>
+			</div>
+		</div>
+		<div>
+			<input class="help_button" type="submit" value="Show help">
+		</div>	
+	</aside>
+</html>
