@@ -1,0 +1,88 @@
+﻿.content {
+    width: 80%;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+nav{
+	background-color: #2c3e50;
+	padding: 5px 0;
+	margin-top: 20px;
+	border: 1px solid #2c3e52;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+
+nav li ul{    
+    background-color: #2c3e50;
+    position: absolute;
+    left: 0;
+    top: 40px; 
+    width: 200px;
+}
+
+nav li li{
+    position: relative;
+    margin: 0;
+    display: block;
+}
+
+nav li li ul{
+    position: absolute;
+    top: 0;
+    left: 200px; 
+    margin: 0;
+}
+
+nav a{
+    line-height: 40px;
+    padding: 0 12px;
+    margin: 0 12px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active{
+    color: #96BDE4;
+}
+
+nav li li a{
+   
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li li:last-child a{
+    border-bottom: none;
+}
+
+ul.sub-menu {
+    display: none;
+}
+
+nav li.dropdown > a{
+    background-image: url('../img/arrow-down.png');
+    background-position: right 20px;
+    background-repeat: no-repeat;
+}
+
+nav li li.dropdown > a {
+    background-image: url('../img/arrow-right.png');
+    background-position: right 16px;
+    background-repeat: no-repeat;
+}
+

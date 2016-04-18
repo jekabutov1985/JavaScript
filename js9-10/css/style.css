@@ -1,0 +1,209 @@
+
+
+body {
+  height: 1000px;
+    background: #F0EFE7;
+    margin: 0;
+    padding: 0;
+    font: 15px/1.5 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #4E443C;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.75);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Arvo', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: normal;
+  text-rendering: optimizelegibility;
+}
+
+h1 {
+    color: #4E443C;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+h2, h2 a {
+    color: #F14E32;
+}
+
+h3, h3 a {
+  color: #0388A6;
+}
+
+a {
+  color: #0388A6;
+}
+
+pre {
+  border:1px solid #000;
+  overflow-x:auto;
+  background: #222;
+  color: #fff;
+  text-shadow: none;
+}
+
+.wrapper {
+    max-width: 620px;
+    padding: 0 20px 40px 20px;
+    margin: auto;
+}
+  /*CHECKBOX CSS*/
+.checkbox_css{
+  margin: -10px 0px 10px 220px;
+  font-weight: bold;
+}
+
+.checkbox_css input[type=checkbox]{
+  position: absolute;
+  clip: rect(0, 0, 0, 0);
+}
+
+.checkbox_css label {
+  cursor: pointer;
+}
+
+.checkbox_css label:after{
+  content: ' ';
+  display: inline-block;
+  width: 17px;
+  height: 17px;
+  background-image: url("../img/checkbox-2.png");
+  position: relative;
+  top: 3px;
+  margin-left: 32px;
+}
+
+.checkbox_css input[type=checkbox]:checked + label:after{
+  background-position: 0 -17px;
+}
+
+.checkbox_css label:hover:after{
+  background-position: 0 -34px;
+  box-shadow: inset 0px 0px 15px -3px rgba(215, 40, 40, 0.9);
+}
+
+.checkbox_css input[type=checkbox]:checked + label:hover:after{
+  background-position: 0 -51px;
+}
+
+  /*CHECKBOX JQUERY*/
+.checkbox_jquery{
+  margin-left: 214px;
+  font: 15px/1.5 Arial, sans-serif;
+    color: #4e443c;
+}
+
+.checkbox_jquery label{
+  margin-left: 6px;
+  position: relative;
+  top: -4px;
+  font-weight: bold;
+}
+
+.niceCheck{
+  width: 17px;
+  height: 17px;
+  margin-left: 12px;
+  display: inline-block;
+  cursor: pointer;
+  background-image: url("../img/checkbox-sprite.png");
+}
+
+.niceCheck input{
+  display: none;
+}
+
+.niceCheck:hover{
+  box-shadow: inset 0px 0px 15px -3px rgba(215, 40, 40, 0.9);
+}
+
+/*MENU NAV*/
+
+.content {
+    width: 80%;
+    max-width: 620px;
+    margin: 0 auto;
+}
+
+nav{
+  background-color: #2c3e50;
+  padding: 5px 0;
+  margin-top: 20px;
+  border: 1px solid #2c3e52;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    position: relative;
+}
+
+nav li ul{    
+    background-color: #2c3e50;
+    position: absolute;
+    left: 0;
+    top: 40px; 
+    width: 200px;
+}
+
+nav li li{
+    position: relative;
+    margin: 0;
+    display: block;
+}
+
+nav li li ul{
+    position: absolute;
+    top: 0;
+    left: 200px; 
+    margin: 0;
+}
+
+nav a{
+    line-height: 40px;
+    padding: 0 12px;
+    margin: 0 12px;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover,
+nav a:focus,
+nav a:active{
+    color: #96BDE4;
+}
+
+nav li li a{
+   
+    margin: 0 10px;
+    padding: 0;
+}
+
+nav li li:last-child a{
+    border-bottom: none;
+}
+
+ul.sub-menu {
+    display: none;
+}
+
+nav li.dropdown > a{
+    background-image: url('../img/arrow-down.png');
+    background-position: right 20px;
+    background-repeat: no-repeat;
+}
+
+nav li li.dropdown > a {
+    background-image: url('../img/arrow-right.png');
+    background-position: right 16px;
+    background-repeat: no-repeat;
+}
