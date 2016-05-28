@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background: #F0F0F1;
+}
+.wrapper {
+    margin: 0 auto;
+}
+
+.search-wrapper {
+    height: 100px;
+    background: #E7E7F5;
+    margin: -8px -8px;
+}
+img {
+    float: left;
+    margin: 5px 10px;
+}
+
+.search-form {
+    height: 80px;
+    display: block;
+    float: left;
+    padding: 20px;
+    position: relative;
+    color: hsl(360, 40%, 35%);
+}
+
+input {
+    display: inline;
+    float: left;
+    font-size: 18px;
+    background: #fff;
+}
+
+#search-text{
+    width: 400px;
+    height: 40px;
+    border: 1px solid #a5a5a5;
+    border-right: none;
+    text-indent: 15px;
+}
+
+#search-submit {
+    width: 40px;
+    height: 40px;
+    background: #4687F4;
+    border: 1px solid #a5a5a5;
+    border-left: #4687F4;
+    position: relative;
+    cursor: pointer;
+}
+
+#search-icon {
+   cursor: pointer;
+    position: absolute;
+    top: 21px;
+    right: 13px;
+    z-index: 5;
+}
+
+
+
+.gallery-wrapper {
+    width: 940px;
+    height: 100%;
+    margin: 10px auto;
+}
+
+.photo-wrapper {
+    display: inline-block;
+    width: 200px;
+    height: 220px;
+    margin: 10px 5px;
+    float: left;
+    border: 1px solid hsla(130, 80%, 20%, 0.2);
+    box-shadow: 0 0 1px 2px hsla(130, 80%, 20%, 0.1);
+}
+
+.photo {
+    display:block;
+    margin: 10px auto;
+}
+
+.photo-wrapper > h4, .photo-wrapper > p {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    font-family: "Myriad Pro", Arial, sans-serif;
+}
+
