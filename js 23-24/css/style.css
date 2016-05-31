@@ -1,0 +1,62 @@
+*{
+	font-family: segoe script;
+}
+body{
+	background: url(../img/11.jpg);
+	background-size: cover;
+}
+.wrapper{
+	padding: 140px 10px 10px 40px;
+    background: url(../img/stiker.png);
+    background-repeat: no-repeat;
+    height: 700px;
+    width: 420px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+h1{
+	margin: 7px auto 15px;
+	font-size: 30px;
+}
+
+li{
+	position: relative;
+	overflow: hidden;
+	margin-bottom: 18px;
+}
+
+.item-delete{
+	float: right;
+	font-family: segoe script;
+	width: 19px;
+	height: 19px;
+	font-size: 16px;
+	border-radius: 10px;
+}
+.item-delete:hover{
+	cursor: pointer;
+	background: gray;
+	color: white;
+}
+
+li input {
+	display: none;
+} 
+li input:focus{
+	border: 0;
+	border: inherit;
+}
+
+.item-add{
+	font-size: 15px;
+	border-radius: 15px; 
+}
+.item-inner{
+	font-family: segoe script;
+	color: red;
+}
+.item-value{
+	margin-bottom: 20px;
+}
